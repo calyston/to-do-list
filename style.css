@@ -90,3 +90,7 @@ header, form {
   background: #84CEEB;
   color: white; 
 }
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
