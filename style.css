@@ -86,11 +86,6 @@ header, form {
   cursor: pointer;
 }
 
-/* .complete-button {
-  margin-right: 0.5rem;
-} */
-
-
 .complete-button:hover, .delete-button:hover {
   background: #84CEEB;
   color: white; 
