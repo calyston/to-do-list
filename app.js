@@ -31,4 +31,7 @@ function addTodo(event) {
   deleteButton.innerHTML = '<i class="fas fa-times"></i>';
   deleteButton.classList.add('delete-button');
   todoDiv.appendChild(deleteButton);
+
+  //Append To Do Div to To Do List
+  todoList.appendChild(todoDiv);
 }
