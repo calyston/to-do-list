@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #84CEEB;
-  background-image: linear-gradient(120deg, #84CEEB, #C1C8E4);
+  background: #84CEEB;
+  background-image: linear-gradient(120deg, #8860D0,#84CEEB);
   color: black;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
@@ -26,4 +26,23 @@ header, form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.todo-input, .todo-button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.todo-button {
+  color: #8860D0;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todo-button:hover {
+  color: white;
+  background: #84CEEB;
 }
