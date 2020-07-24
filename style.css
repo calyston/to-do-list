@@ -78,12 +78,20 @@ header, form {
 }
 
 .complete-button, .delete-button {
-  padding: 0.5rem;
-  margin: 0.5rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  background: #8860D0;
+  background:#8860D0;
   color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
   cursor: pointer;
+}
+
+/* .complete-button {
+  margin-right: 0.5rem;
+} */
+
+
+.complete-button:hover, .delete-button:hover {
+  background: #84CEEB;
+  color: white; 
 }
