@@ -18,6 +18,11 @@ function addTodo(event) {
   const newTodo = document.createElement('li');
   newTodo.innerText = todoInput.value;
   newTodo.classList.add('todo-item');
-  console.log(todoInput.value);
   todoDiv.appendChild(newTodo);
+
+  //Completed Task Button
+  const completedButton = document.createElement('button');
+  completedButton.innerHTML = '<i class="fas fa-check-square"></i>';
+  completedButton.classList.add('complete-button');
+  todoDiv.appendChild(completedButton);
 }
