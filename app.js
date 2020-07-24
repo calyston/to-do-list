@@ -22,7 +22,13 @@ function addTodo(event) {
 
   //Completed Task Button
   const completedButton = document.createElement('button');
-  completedButton.innerHTML = '<i class="fas fa-check-square"></i>';
+  completedButton.innerHTML = '<i class="fas fa-check"></i>';
   completedButton.classList.add('complete-button');
   todoDiv.appendChild(completedButton);
+
+  //Delete Task Button
+  const deleteButton = document.createElement('button');
+  deleteButton.innerHTML = '<i class="fas fa-times"></i>';
+  deleteButton.classList.add('delete-button');
+  todoDiv.appendChild(deleteButton);
 }
