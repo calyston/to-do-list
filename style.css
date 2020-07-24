@@ -94,3 +94,7 @@ header, form {
 .todo-item {
   padding: 0rem 0.5rem;
 }
+
+.fa-check, .fa-trash-alt {
+  pointer-events: none;
+}
