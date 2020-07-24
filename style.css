@@ -28,6 +28,9 @@ header, form {
   align-items: center;
 }
 
+
+/*To Do Form and Button*/
+
 .todo-input, .todo-button {
   padding: 0.5rem;
   font-size: 2rem;
@@ -45,4 +48,27 @@ header, form {
 .todo-button:hover {
   color: white;
   background: #84CEEB;
+}
+
+/*To Do List*/
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
