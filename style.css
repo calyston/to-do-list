@@ -78,6 +78,12 @@ header, form {
   flex: 1;
 }
 
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+/*To Do Buttons*/
+
 .complete-button, .delete-button {
   background:#8860D0;
   color: white;
@@ -92,13 +98,12 @@ header, form {
   color: white; 
 }
 
-.todo-item {
-  padding: 0rem 0.5rem;
-}
 
 .fa-check, .fa-trash-alt {
   pointer-events: none;
 }
+
+/*Animation Styling*/
 
 .completed {
   text-decoration: line-through;
@@ -108,4 +113,35 @@ header, form {
 .fall {
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
+}
+
+/*Select Box Styling*/
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  width: 10rem;
+  cursor: pointer;
+  color: #8860D0;
+  padding: 1rem;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #8860D0;
+  color: white;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
 }
