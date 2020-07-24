@@ -39,20 +39,24 @@ function addTodo(event) {
 
   //Clear To Do Input Value
   todoInput.value = "";
-}
+};
 
 function deleteTodo(event) {
   const item = event.target;
   if (item.classList[0] === 'delete-button') {
     const todo = item.parentElement;
-    todo.remove();
-  }
-}
+    //Animation
+    todo.classList.add('fall');
+    todo.addEventListener('transitionend', function () {
+      todo.remove();
+    });
+  };
+};
 
 function completeTodo(event) {
   const item = event.target;
   if (item.classList[0] === 'complete-button') {
     const todo = item.parentElement;
     todo.classList.toggle('completed');
-  }
-}
+  };
+};
