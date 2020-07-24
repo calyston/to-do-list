@@ -28,7 +28,7 @@ function addTodo(event) {
 
   //Delete Task Button
   const deleteButton = document.createElement('button');
-  deleteButton.innerHTML = '<i class="fas fa-times"></i>';
+  deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
   deleteButton.classList.add('delete-button');
   todoDiv.appendChild(deleteButton);
 
