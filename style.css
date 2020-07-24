@@ -42,7 +42,7 @@ header, form {
   color: #8860D0;
   background: white;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .todo-button:hover {
@@ -144,4 +144,10 @@ select {
   right: 0;
   padding: 1rem;
   pointer-events: none;
+  transition: all 0.5s ease;
+}
+
+.select:hover::after {
+  background: #84CEEB;
+  color: white;
 }
