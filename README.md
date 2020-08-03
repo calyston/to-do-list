@@ -2,6 +2,8 @@
 
 This project is a to do list which is generated through user input.
 
+![](ToDoList350.png)
+
 ## Technologies Used
 
 HTML, CSS, JavaScript, GIT, Bash.
